@@ -3,4 +3,4 @@
 https://asciinema.org/a/TzxywVtu7navXFeJRuedxIIlX
 
 2. brain-calc
-https://asciinema.org/connect/2e056e67-6154-4854-85b9-f2b4ef714986
+https://asciinema.org/a/9bIsa9vx7LnFbiSu4Lb6mlIVE

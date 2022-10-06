@@ -4,3 +4,6 @@ https://asciinema.org/a/TzxywVtu7navXFeJRuedxIIlX
 
 2. brain-calc
 https://asciinema.org/a/9bIsa9vx7LnFbiSu4Lb6mlIVE
+
+3. brain-gcd
+https://asciinema.org/a/1GUGwtZKrKS28OU4g1dF75dDg

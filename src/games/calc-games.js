@@ -21,7 +21,7 @@ const calculate = (num1, num2, operator) => {
   return result;
 };
 
-const Round = () => {
+const round = () => {
   const num1 = randomNumber(20);
   const num2 = randomNumber(20);
   const indexOfOperator = randomNumber(3);
@@ -32,6 +32,6 @@ const Round = () => {
   return { question, correctAnswer };
 };
 
-const CalcGame = () => game(Round, instruction);
+const calcGame = () => game(round, instruction);
 
-export default CalcGame;
+export default calcGame;

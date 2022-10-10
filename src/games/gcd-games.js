@@ -5,7 +5,7 @@ const instruction = 'Find the greatest common divisor of given numbers.';
 
 const greatestCommonDivider = (x, y) => (y ? greatestCommonDivider(y, x % y) : x);
 
-const Round = () => {
+const round = () => {
   const num1 = randomNumber(50);
   const num2 = randomNumber(50);
   const correctAnswer = String(greatestCommonDivider(num1, num2));
@@ -13,6 +13,6 @@ const Round = () => {
   return { question, correctAnswer };
 };
 
-const GcdGame = () => game(Round, instruction);
+const gcdGame = () => game(round, instruction);
 
-export default GcdGame;
+export default gcdGame;

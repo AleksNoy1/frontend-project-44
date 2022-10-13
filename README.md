@@ -3,6 +3,7 @@
 Игры разума.
 
 Представляю вашему вниманию набор из пяти консольных игр.
+
 Для установки выполните следующие команды:
 
 git clone git@github.com:AleksNoy1/frontend-project-44.git
@@ -18,11 +19,13 @@ npm link
 Определение четного числа.
 
 Для запуска выполните команду: brain-even
+
 https://asciinema.org/a/TzxywVtu7navXFeJRuedxIIlX
 
 Калькулятор.
 
 Для запуска выполните команду: brain-calc
+
 https://asciinema.org/a/9bIsa9vx7LnFbiSu4Lb6mlIVE
 
 Определение наибольшего общего делителя.
@@ -34,9 +37,11 @@ https://asciinema.org/a/1GUGwtZKrKS28OU4g1dF75dDg
 Прогрессия.
 
 Для запуска выполните команду: brain-progression
+
 https://asciinema.org/a/HEVcGwNG2rSPymSiEPsibrid6
 
 Определение простого числа.
 
 Для запуска выполните команду: brain-prime
+
 https://asciinema.org/a/2ayK0vN3756iTBNmpPD7T1Dej

@@ -20,7 +20,7 @@ const primeNumber = (num) => {
 const round = () => {
   const question = randomNumber(100);
   const correctAnswer = primeNumber(question) ? 'yes' : 'no';
-  return {question, correctAnswer};
+  return { question, correctAnswer };
 };
 
 const primeGame = () => game(round, instruction);

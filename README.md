@@ -10,3 +10,6 @@ https://asciinema.org/a/1GUGwtZKrKS28OU4g1dF75dDg
 
 4. brain-progression
 https://asciinema.org/a/HEVcGwNG2rSPymSiEPsibrid6
+
+5. brain-prime
+https://asciinema.org/a/2ayK0vN3756iTBNmpPD7T1Dej

@@ -1,5 +1,5 @@
-import { randomNumber } from '../randomNumber.js';
-import game from '../index.js';
+import { getRandomIntFromRange } from '../randomNumber.js';
+import play from '../index.js';
 
 const instruction = 'What is the result of the expression?';
 
@@ -21,17 +21,17 @@ const calculate = (num1, num2, operator) => {
   return result;
 };
 
-const round = () => {
-  const num1 = randomNumber(20);
-  const num2 = randomNumber(20);
-  const indexOfOperator = randomNumber(3);
+const generateRound = () => {
+  const num1 = getRandomIntFromRange(20);
+  const num2 = getRandomIntFromRange(20);
   const operators = ['+', '-', '*'];
+  const indexOfOperator = getRandomIntFromRange(operators.length -1);
   const operator = operators[indexOfOperator];
   const correctAnswer = String(calculate(num1, num2, operator));
   const question = `${num1} ${operator} ${num2}`;
   return { question, correctAnswer };
 };
 
-const calcGame = () => game(round, instruction);
+const calcGame = () => play(generateRound, instruction);
 
 export default calcGame;

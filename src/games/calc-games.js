@@ -25,7 +25,7 @@ const generateRound = () => {
   const num1 = getRandomIntFromRange(20);
   const num2 = getRandomIntFromRange(20);
   const operators = ['+', '-', '*'];
-  const indexOfOperator = getRandomIntFromRange(operators.length -1);
+  const indexOfOperator = getRandomIntFromRange(operators.length - 1);
   const operator = operators[indexOfOperator];
   const correctAnswer = String(calculate(num1, num2, operator));
   const question = `${num1} ${operator} ${num2}`;

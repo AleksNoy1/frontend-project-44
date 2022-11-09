@@ -1,5 +1,5 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a36f00413108b41ccdcd/maintainability)](https://codeclimate.com/github/AleksNoy1/frontend-project-44/maintainability)
-![Actions Status](https://github.com/AleksNoy1/frontend-project-44/actions)
+[![Actions Status](https://github.com/AleksNoy1/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/AleksNoy1/frontend-project-44/actions)
 
 Игры разума.
 
@@ -21,7 +21,7 @@ npm link
 
 Для запуска выполните команду: brain-even
 
-https://asciinema.org/a/TzxywVtu7navXFeJRuedxIIlX
+[![asciicast](https://asciinema.org/a/536300.svg)](https://asciinema.org/a/536300)
 
 Калькулятор.
 

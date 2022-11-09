@@ -1,4 +1,4 @@
-import { getRandomIntFromRange } from '../randomNumber.js';
+import getRandomIntFromRange from '../randomNumber.js';
 import play from '../index.js';
 
 const instruction = 'Answer "yes" if given number is prime. Otherwise answer "no".';
@@ -18,7 +18,7 @@ const isPrime = (num) => {
 };
 
 const generateRound = () => {
-  const question = getRandomIntFromRange(100);
+  const question = getRandomIntFromRange(0, 100);
   const correctAnswer = isPrime(question) ? 'yes' : 'no';
   return { question, correctAnswer };
 };

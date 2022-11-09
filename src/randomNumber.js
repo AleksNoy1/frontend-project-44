@@ -1,4 +1,7 @@
-export const getRandomIntFromRange = (max, min = 1) => {
-  const randomNum = min - 1 + Math.random() * (max - min + 1);
-  return Math.round(randomNum);
+const getRandomIntFromRange = (min, max) => {
+  const minimum = Math.ceil(min);
+  const maximum = Math.floor(max);
+  return Math.floor(Math.random() * (maximum - minimum + 1) + minimum);
 };
+
+export default getRandomIntFromRange;

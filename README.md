@@ -27,22 +27,22 @@ npm link
 
 Для запуска выполните команду: brain-calc
 
-https://asciinema.org/a/9bIsa9vx7LnFbiSu4Lb6mlIVE
+[![asciicast](https://asciinema.org/a/539097.svg)](https://asciinema.org/a/539097)
 
 Определение наибольшего общего делителя.
 
 Для запуска выполните команду:brain-gcd
 
-https://asciinema.org/a/1GUGwtZKrKS28OU4g1dF75dDg
+[![asciicast](https://asciinema.org/a/539099.svg)](https://asciinema.org/a/539099)
 
 Прогрессия.
 
 Для запуска выполните команду: brain-progression
 
-https://asciinema.org/a/HEVcGwNG2rSPymSiEPsibrid6
+[![asciicast](https://asciinema.org/a/539104.svg)](https://asciinema.org/a/539104)
 
 Определение простого числа.
 
 Для запуска выполните команду: brain-prime
 
-https://asciinema.org/a/2ayK0vN3756iTBNmpPD7T1Dej
+[![asciicast](https://asciinema.org/a/539107.svg)](https://asciinema.org/a/539107)

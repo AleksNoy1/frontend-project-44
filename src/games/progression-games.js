@@ -20,9 +20,9 @@ const getProgression = (start, step, index) => {
 const calcProgressionNumber = (start, step, index) => start + step * index;
 
 const generateRound = () => {
-  const start = getRandomIntFromRange(0, 20);
-  const step = getRandomIntFromRange(0, 6);
-  const index = getRandomIntFromRange(0, 9);
+  const start = getRandomIntFromRange(1, 20);
+  const step = getRandomIntFromRange(1, 7);
+  const index = getRandomIntFromRange(1, 9);
   const correctAnswer = String(calcProgressionNumber(start, step, index));
   const question = getProgression(start, step, index);
   return { question, correctAnswer };
